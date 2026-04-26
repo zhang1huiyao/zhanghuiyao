@@ -83,8 +83,7 @@ My previous work spans multimodal understanding, promptable foundation model ada
 - **National Silver Award**, Challenge Cup National College Students' Extracurricular Academic Science and Technology Contest
 - **National Bronze Award (×2)**, China International College Students' Innovation Competition
 - **Bronze Medal**, iGEM
-- **People's Government Scholarship**, Guangxi Zhuang Autonomous Region
-- **National Encouragement Scholarship**
+- **Major Scholarships**, including the People's Government Scholarship of Guangxi Zhuang Autonomous Region and the National Encouragement Scholarship
 
 ## 🔬 Research Interests
 
