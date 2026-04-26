@@ -441,51 +441,42 @@ a:hover {
   font-size: 0.92rem;
 }
 
-.award-card-grid {
+.honor-grid {
   margin-top: 22px;
-  padding-top: 0;
-  border-top: 0;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 16px;
 }
 
-.award-card {
+.honor-card {
+  padding: 18px 18px 16px;
   border: 1px solid #d8d0c3;
-  border-radius: 6px;
-  background: rgba(255, 255, 255, 0.56);
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.62);
+  box-shadow: 0 10px 24px rgba(31, 26, 23, 0.05);
 }
 
-.award-card a {
-  display: block;
+.honor-year {
+  display: inline-block;
+  margin-bottom: 10px;
+  padding: 4px 9px;
+  border-radius: 999px;
+  background: #f1ede5;
+  color: #756a5d;
+  font-family: "IBM Plex Mono", "Consolas", monospace;
+  font-size: 0.78rem;
 }
 
-.award-card img {
-  width: 100%;
-  height: 210px;
-  padding: 10px;
-  object-fit: contain;
-  object-position: center;
-  border-bottom: 1px solid #d8d0c3;
-  background: white;
-}
-
-.award-card h3 {
-  margin: 12px 14px 4px;
-  font-size: 0.98rem;
+.honor-card h3 {
+  margin: 0 0 8px;
+  font-size: 1.04rem;
   line-height: 1.35;
-  min-height: 2.7em;
 }
 
-.award-card p {
-  margin: 0 14px 14px;
+.honor-card p {
+  margin: 0;
   color: var(--muted);
-  font-size: 0.9rem;
-  line-height: 1.4;
-  min-height: 3.2em;
+  line-height: 1.55;
 }
 
 @media (max-width: 980px) {
@@ -581,7 +572,7 @@ a:hover {
     width: 100%;
   }
 
-  .award-card-grid {
+  .honor-grid {
     grid-template-columns: 1fr;
   }
 }

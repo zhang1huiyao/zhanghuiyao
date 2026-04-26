@@ -9,7 +9,7 @@
 <p align="center">
   <a href="https://zhang1huiyao.github.io/zhanghuiyao/">Homepage</a> ·
   <a href="https://github.com/zhang1huiyao">GitHub</a> ·
-  <a href="https://scholar.google.com/scholar?q=Huiyao+Zhang+multimodal">Google Scholar</a> ·
+  <a href="https://scholar.google.com/citations?view_op=list_works&hl=zh-CN&user=4-_ZxF8AAAAJ&gmla=AIqSsVu_9oSFMU6RBwIB44BAVX89cFxTzX-jK6b_ZsoMRCwHe7BZJjR8UoYZETCBm5Rz-4oHxk0HJ7a8KW95x4QrO-sGWiny3HyGr-9YZ3HJKC-2wdAvvhIEyHc2">Google Scholar</a> ·
   <a href="mailto:13263818360@163.com">Email</a>
 </p>
 
@@ -17,7 +17,7 @@
   University of Chinese Academy of Sciences (UCAS) · TeleAI
 </p>
 
-## Academic Profile
+## 🧭 Academic Profile
 
 | Item | Details |
 | --- | --- |
@@ -27,7 +27,7 @@
 | Research Areas | Multimodal reasoning, MLLM post-training, Visual Agents, Mamba / SSM |
 | Homepage | [zhang1huiyao.github.io/zhanghuiyao](https://zhang1huiyao.github.io/zhanghuiyao/) |
 
-## About Me
+## 👋 About Me
 
 Hi! I am **Huiyao Zhang (张晖耀)**, currently a **Master's student in Computer Technology at the University of Chinese Academy of Sciences (UCAS)**, supervised by **Prof. Ye Li**. I am also a **research intern at TeleAI**, working with **Chuyi Wang**. My research focuses on **Multimodal Large Language Models (MLLMs)**, **Visual Agents**, and **efficient foundation architectures** such as **Mamba / SSM**.
 
@@ -49,7 +49,7 @@ My previous work spans multimodal understanding, promptable foundation model ada
   </p>
 </details>
 
-## Selected Publications and Projects
+## 📝 Selected Publications and Projects
 
 ### Ongoing / Recent Work
 
@@ -78,16 +78,15 @@ My previous work spans multimodal understanding, promptable foundation model ada
   *Computers and Electronics in Agriculture* (SCI Q1), 2024.  
   Link: [DOI](https://doi.org/10.1016/j.compag.2024.108612)
 
-## Awards
+## 🏆 Selected Honors
 
 - **National Silver Award**, Challenge Cup National College Students' Extracurricular Academic Science and Technology Contest
 - **National Bronze Award (×2)**, China International College Students' Innovation Competition
 - **Bronze Medal**, iGEM
-- **National Honorable Mention**, Zhou Peiyuan Mechanics Competition
 - **People's Government Scholarship**, Guangxi Zhuang Autonomous Region
 - **National Encouragement Scholarship**
 
-## Research Interests
+## 🔬 Research Interests
 
 - Multimodal Large Language Models (MLLMs)
 - Visual Agents and evidence-aware decision making
@@ -95,19 +94,19 @@ My previous work spans multimodal understanding, promptable foundation model ada
 - Promptable and adaptable foundation models
 - Efficient architectures such as Mamba and SSM
 
-## Technical Skills
+## 🛠️ Technical Skills
 
 - **Frameworks**: PyTorch, DeepSpeed
 - **Models / Systems**: Qwen-VL, LLaVA, SAM 2, Mask2Former
 - **Experience**: SFT, LoRA, prompt engineering, agent workflow design, paper reproduction, and experimental analysis
 
-## Contact
+## 📫 Contact
 
 - Email: [13263818360@163.com](mailto:13263818360@163.com)
 - GitHub: [github.com/zhang1huiyao](https://github.com/zhang1huiyao)
 - Homepage: [zhang1huiyao.github.io/zhanghuiyao](https://zhang1huiyao.github.io/zhanghuiyao/)
-- Google Scholar: [Search Profile](https://scholar.google.com/scholar?q=Huiyao+Zhang+multimodal)
+- Google Scholar: [Scholar Profile](https://scholar.google.com/citations?view_op=list_works&hl=zh-CN&user=4-_ZxF8AAAAJ&gmla=AIqSsVu_9oSFMU6RBwIB44BAVX89cFxTzX-jK6b_ZsoMRCwHe7BZJjR8UoYZETCBm5Rz-4oHxk0HJ7a8KW95x4QrO-sGWiny3HyGr-9YZ3HJKC-2wdAvvhIEyHc2)
 
-## Repository Note
+## 🌐 Repository Note
 
 This repository contains the source code for my academic homepage and is deployed with GitHub Pages.
