@@ -1,0 +1,23 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Original local source materials, not for the public repo
+/个人简历/
+/奖状证书/
+/照片/
+/论文图片/
+/2508.18050v1.pdf
+/2601.17288v1.pdf
+/2603.27250v1.pdf
+/2603.28503v1.pdf
+/Chen 等 - 2024 - Efficient and lightweight grape and picking point synchronous detection model based on key point det.pdf
+
+# Local working copies that are no longer referenced by the homepage
+/assets/papers/
+/assets/tmp-pages/
+/assets/awards/guangxi-government-scholarship.jpg
+/assets/awards/national-innovation-project.jpg
+/assets/awards/math-modeling-national.jpg
