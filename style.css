@@ -475,61 +475,18 @@ a:hover {
   font-size: 0.92rem;
 }
 
-.award-card-grid {
-  margin-top: 22px;
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 16px;
-}
-
-.award-card {
-  border: 1px solid #d8d0c3;
-  border-radius: 8px;
-  background: rgba(255, 255, 255, 0.62);
-  overflow: hidden;
-  box-shadow: 0 10px 24px rgba(31, 26, 23, 0.05);
-}
-
-.award-card img {
-  display: block;
-  width: 100%;
-  height: 172px;
-  padding: 10px;
-  object-fit: contain;
-  object-position: center;
-  background: #fff;
-  border-bottom: 1px solid #d8d0c3;
-}
-
-.award-card h3 {
-  margin: 14px 14px 6px;
-  font-size: 1rem;
-  line-height: 1.35;
-}
-
-.award-card p {
-  margin: 0 14px 14px;
-  color: var(--muted);
-  font-size: 0.92rem;
-  line-height: 1.45;
-  min-height: 2.8em;
-}
-
 .award-details {
-  margin-top: 18px;
-  border: 1px solid #d8d0c3;
-  border-radius: 8px;
-  background: rgba(255, 255, 255, 0.56);
-  overflow: hidden;
+  margin-top: 12px;
+  border-top: 1px solid var(--line);
+  padding-top: 10px;
 }
 
 .award-details summary {
   cursor: pointer;
-  padding: 14px 16px;
+  padding: 0 0 2px;
   list-style: none;
-  font-family: "IBM Plex Mono", "Consolas", monospace;
-  font-size: 0.9rem;
   color: #645d56;
+  font-size: 1rem;
 }
 
 .award-details summary::-webkit-details-marker {
@@ -541,26 +498,44 @@ a:hover {
   color: #9a8f82;
 }
 
-.award-details[open] summary {
-  border-bottom: 1px solid #ddd5c9;
-}
-
 .award-details[open] summary::after {
   content: " -";
 }
 
 .award-list {
   margin: 0;
-  padding: 14px 20px 18px 38px;
-  columns: 2;
-  column-gap: 28px;
+  padding-left: 34px;
 }
 
 .award-list li {
-  break-inside: avoid;
-  margin: 0 0 12px;
+  margin: 0 0 18px;
   color: #514a42;
-  line-height: 1.58;
+  font-size: 1.02rem;
+  line-height: 1.68;
+}
+
+.award-primary {
+  margin-top: 18px;
+  padding-top: 16px;
+  border-top: 1px solid var(--line);
+}
+
+.award-secondary {
+  margin-top: 14px;
+}
+
+.award-year {
+  display: inline-block;
+  margin-right: 10px;
+  color: #5e5851;
+  font-family: "IBM Plex Mono", "Consolas", monospace;
+  font-size: 0.9rem;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.award-list strong {
+  color: #3b3630;
 }
 
 @media (max-width: 980px) {
@@ -659,11 +634,7 @@ a:hover {
     width: 100%;
   }
 
-  .award-card-grid {
-    grid-template-columns: 1fr;
-  }
-
   .award-list {
-    columns: 1;
+    padding-left: 26px;
   }
 }
