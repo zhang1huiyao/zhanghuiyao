@@ -352,6 +352,12 @@ a:hover {
   line-height: 1.52;
 }
 
+.publication-content {
+  display: flex;
+  flex-direction: column;
+  min-height: 260px;
+}
+
 .publication-thumb {
   position: relative;
   width: 188px;
@@ -438,6 +444,22 @@ a:hover {
   background: white;
 }
 
+.publication-summary {
+  margin: auto 0 0;
+  padding: 12px 14px;
+  border: 1px solid #e2d9cb;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.72);
+  color: #4e463d;
+  font-size: 0.96rem;
+  line-height: 1.58;
+}
+
+.publication-summary span {
+  color: #a06222;
+  font-weight: 700;
+}
+
 .misc-text {
   max-width: 760px;
   margin: 16px 0 0;
@@ -491,6 +513,54 @@ a:hover {
   font-size: 0.92rem;
   line-height: 1.45;
   min-height: 2.8em;
+}
+
+.award-details {
+  margin-top: 18px;
+  border: 1px solid #d8d0c3;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.56);
+  overflow: hidden;
+}
+
+.award-details summary {
+  cursor: pointer;
+  padding: 14px 16px;
+  list-style: none;
+  font-family: "IBM Plex Mono", "Consolas", monospace;
+  font-size: 0.9rem;
+  color: #645d56;
+}
+
+.award-details summary::-webkit-details-marker {
+  display: none;
+}
+
+.award-details summary::after {
+  content: " +";
+  color: #9a8f82;
+}
+
+.award-details[open] summary {
+  border-bottom: 1px solid #ddd5c9;
+}
+
+.award-details[open] summary::after {
+  content: " -";
+}
+
+.award-list {
+  margin: 0;
+  padding: 14px 20px 18px 38px;
+  columns: 2;
+  column-gap: 28px;
+}
+
+.award-list li {
+  break-inside: avoid;
+  margin: 0 0 12px;
+  color: #514a42;
+  line-height: 1.58;
 }
 
 @media (max-width: 980px) {
@@ -547,6 +617,10 @@ a:hover {
     width: min(188px, 100%);
     margin: 0 auto 4px;
   }
+
+  .publication-content {
+    min-height: auto;
+  }
 }
 
 @media (max-width: 640px) {
@@ -587,5 +661,9 @@ a:hover {
 
   .award-card-grid {
     grid-template-columns: 1fr;
+  }
+
+  .award-list {
+    columns: 1;
   }
 }
