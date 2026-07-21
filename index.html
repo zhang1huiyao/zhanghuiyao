@@ -1,322 +1,290 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Huiyao Zhang | Personal Homepage</title>
-  <meta
-    name="description"
-    content="Personal homepage of Huiyao Zhang, a master's student at UCAS and research intern at TeleAI working on multimodal reasoning, MLLM post-training, visual agents, and efficient foundation architectures."
-  >
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=IBM+Plex+Mono:wght@400;500&family=Source+Serif+4:wght@400;600;700&display=swap"
-    rel="stylesheet"
-  >
+  <meta name="description" content="Personal academic homepage of Huiyao Zhang, a master's student at UCAS and research intern at TeleAI working on multimodal reasoning and MLLM post-training.">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main class="page">
-    <header class="hero">
-      <h1 class="page-name">Huiyao Zhang</h1>
-      <p class="role-strip">
-        🎓 Master's Student at UCAS
-        <span>·</span>
-        🔬 Research Intern at TeleAI
-        <span>·</span>
-        🧠 MLLM Reasoning &amp; Post-training
+<div class="container">
+  <header class="site-header">
+    <h1>Huiyao Zhang</h1>
+    <p class="tagline">
+      🎓 Master's Student at UCAS
+      <span>·</span>
+      🔬 Research Intern at TeleAI
+      <span>·</span>
+      🧠 MLLM Reasoning · Promptable Vision
+    </p>
+  </header>
+
+  <hr class="unseen-section-divider">
+
+  <section class="bio-section" id="about">
+    <div class="bio-avatar">
+      <img src="assets/profile/huiyao-zhang.png" alt="Huiyao Zhang">
+    </div>
+    <div class="bio-text">
+      <p>
+        Hi! I am <strong>Huiyao Zhang (Chinese name: 张晖耀)</strong>, a Master's student in Computer
+        Technology at the <a href="https://english.ucas.ac.cn/" target="_blank" rel="noreferrer">University of Chinese Academy of Sciences (UCAS)</a>,
+        supervised by <strong>Prof. Ye Li</strong>. I am also a research intern at <strong>TeleAI</strong>, working
+        with <strong>Chuyi Wang</strong> on multimodal reasoning and post-training for MLLMs. Before that, I received
+        my B.Eng. in Mechatronic Engineering from <strong>Guangxi University</strong>.
+      </p>
+      <p>
+        My research spans <strong>MLLM reasoning and post-training</strong>, <strong>unified vision understanding and generation</strong>,
+        <strong>prompt-conditioned segmentation</strong>, <strong>Visual Agents</strong>, and efficient architectures such as
+        <strong>Mamba / SSM</strong>. I am particularly interested in building systems that can perceive, reason over, and
+        generate visual content—or recover their intended visual interfaces when prompts are unavailable—for grounded and
+        reliable decision-making.
       </p>
 
-      <div class="intro-grid">
-        <div class="avatar-card">
-          <img class="avatar-photo" src="./assets/profile/huiyao-zhang.png" alt="Huiyao Zhang portrait">
-        </div>
+      <div class="bio-badges">
+        <span class="stat-badge"><span class="stat-label">ECCV 2026</span><span class="stat-value stat-dark">2 Papers</span></span>
+        <span class="stat-badge"><span class="stat-label">Lead Author</span><span class="stat-value stat-blue">2 Papers</span></span>
+        <span class="stat-badge"><span class="stat-label">IP-SAM</span><span class="stat-value stat-amber">ECCV 2026</span></span>
+      </div>
 
-        <div class="intro-body">
+      <details class="profile-details">
+        <summary>Detailed Profile（详细个人介绍）</summary>
+        <div class="profile-details-body">
           <p>
-            Hi! I am <strong>Huiyao Zhang</strong> (Chinese name: 张晖耀), currently a Master’s student in
-            Computer Technology at the <strong>University of Chinese Academy of Sciences (UCAS)</strong>,
-            supervised by <strong>Prof. Ye Li</strong>. I am also a research intern at
-            <strong>TeleAI</strong>, working with <strong>Chuyi Wang</strong> on multimodal reasoning and
-            post-training for MLLMs. Before that, I received my bachelor’s degree in Mechatronic
-            Engineering from <strong>Guangxi University</strong>.
+            My recent work covers prompt-space conditioning for promptable foundation models, cross-modal
+            chain-of-thought reasoning, frequency-aware modeling for thin structures, and topology-aware state-space
+            architectures. IP-SAM studies prompt-absent deployment for prompt-conditioned segmenters, and its latest
+            version generalizes the approach from camouflaged object detection to medical polyp segmentation. I have
+            led or co-led projects across visual understanding, remote-sensing segmentation, and efficient modeling.
+            My work has also been submitted to AAAI, CVPR, ECCV, and IJCAI, with two papers accepted to ECCV 2026.
           </p>
           <p>
-            My research focuses on <strong>Multimodal Large Language Models (MLLMs)</strong>,
-            <strong>Visual Agents</strong>, and efficient foundation architectures such as
-            <strong>Mamba / SSM</strong>, with particular interest in multimodal reasoning, visual evidence
-            consumption, and reliable decision-making in vision-language systems.
+            目前我在中国科学院大学攻读计算机技术硕士，同时在 TeleAI 开展多模态推理与 MLLM
+            post-training 方向研究。我主要关注视觉证据如何被更可靠地抽取、组织与选择，并服务于最终决策；同时也关注提示条件视觉模型在无外部提示部署中的可靠适配、Visual Agents 以及 Mamba / SSM 等高效基础架构。
           </p>
-
-          <details class="profile-details">
-            <summary>✨ Detailed Profile （详细个人介绍）</summary>
-            <div class="details-body">
-              <p>
-                My recent work spans multimodal understanding, promptable foundation model adaptation,
-                cross-modal reasoning, agent-style visual systems, and topology-aware sequence modeling.
-                I have led or co-led multiple projects in these areas, and submitted multiple papers to
-                venues such as AAAI, CVPR, ECCV, and IJCAI. My research topics include prompt-space
-                conditioning for prompt-absent segmentation, multi-granularity reasoning for camouflaged
-                object understanding, multimodal agent-style reasoning, and structured visual modeling
-                with Mamba-based architectures.
-              </p>
-              <p>
-                At TeleAI, my current research mainly centers on multimodal reasoning and MLLM
-                post-training, especially how visual evidence can be more reliably extracted, organized,
-                and consumed by the final decision layer. More specifically, I am interested in building
-                evidence-aware decision interfaces that allow multimodal models to use visual information
-                in a more selective, grounded, and controllable way.
-              </p>
-              <p>
-                Beyond research, I have received multiple national and international awards, including a
-                National Silver Award in the Challenge Cup, two National Bronze Awards in the China
-                International College Students’ Innovation Competition, an iGEM Bronze Medal, and a
-                National Honorable Mention in the Zhou Peiyuan Mechanics Competition. These experiences
-                shaped my interdisciplinary background across engineering, computer vision, and multimodal AI.
-              </p>
-              <p class="details-cn">
-                目前我在中国科学院大学攻读计算机技术硕士，导师为李叶老师，同时在 TeleAI 跟随王楚轶老师开展多模态推理与
-                MLLM post-training 方向的研究。我本科毕业于广西大学机械电子工程专业。
-                目前主要关注 MLLM、Visual Agents 以及 Mamba/SSM 等高效基础架构，尤其关注视觉证据如何被更可靠地抽取、
-                组织并服务于最终决策。
-              </p>
-            </div>
-          </details>
-
-          <div class="notice-box">
-            <p>
-              I am currently working at <strong>TeleAI</strong> on multimodal reasoning and MLLM
-              post-training, with a particular interest in evidence-aware decision interfaces for reliable
-              vision-language decision making. If you would like to discuss research or collaboration,
-              feel free to reach out by email.
-            </p>
-            <p>
-              目前我在 <strong>TeleAI</strong> 主要研究多模态推理与 MLLM post-training，重点关注证据感知式决策接口、
-              视觉证据组织与可靠决策。欢迎交流科研合作。
-            </p>
-          </div>
         </div>
-      </div>
-
-      <div class="contact-row">
-        <a href="mailto:zhanghuiyao25@csu.ac.cn">✉️ Email</a>
-        <a href="https://scholar.google.com/citations?view_op=list_works&hl=zh-CN&user=4-_ZxF8AAAAJ&gmla=AIqSsVu_9oSFMU6RBwIB44BAVX89cFxTzX-jK6b_ZsoMRCwHe7BZJjR8UoYZETCBm5Rz-4oHxk0HJ7a8KW95x4QrO-sGWiny3HyGr-9YZ3HJKC-2wdAvvhIEyHc2" target="_blank" rel="noreferrer">📚 Scholar</a>
-        <a href="https://github.com/zhang1huiyao" target="_blank" rel="noreferrer">💻 GitHub</a>
-        <a href="https://zhang1huiyao.github.io/ArgusCogito/" target="_blank" rel="noreferrer">🧪 Project Page</a>
-        <a href="#publications">📝 Publications</a>
-      </div>
-    </header>
-
-    <section class="paper-section" id="news">
-      <h2 class="section-title">✨ News</h2>
-      <div class="news-list">
-        <article class="news-item">
-          <div class="news-date">04/2026</div>
-          <div class="news-text"><span class="news-mark">🎉</span>I am currently interning at <strong>TeleAI</strong>, focusing on multimodal reasoning, MLLM post-training, and evidence-aware decision interfaces.</div>
-        </article>
-        <article class="news-item">
-          <div class="news-date">03/2026</div>
-          <div class="news-text"><span class="news-mark">🎉</span>We posted <a href="https://arxiv.org/abs/2603.27250" target="_blank" rel="noreferrer">IP-SAM</a>, my first-author preprint on prompt-space conditioning for prompt-absent camouflaged object detection.</div>
-        </article>
-        <article class="news-item">
-          <div class="news-date">03/2026</div>
-          <div class="news-text"><span class="news-mark">🎉</span>We released <a href="https://arxiv.org/abs/2603.28503" target="_blank" rel="noreferrer">FGOS-Net</a>, a new preprint on frequency-aware anisotropic serialization for thin-structure SSMs.</div>
-        </article>
-        <article class="news-item">
-          <div class="news-date">01/2026</div>
-          <div class="news-text"><span class="news-mark">🎉</span>We posted <a href="https://arxiv.org/abs/2601.17288" target="_blank" rel="noreferrer">Fluxamba</a>, a topology-aware anisotropic SSM for geological lineament segmentation in multi-source remote sensing.</div>
-        </article>
-        <article class="news-item">
-          <div class="news-date">08/2025</div>
-          <div class="news-text"><span class="news-mark">🎉</span>We posted <a href="https://arxiv.org/abs/2508.18050" target="_blank" rel="noreferrer">ArgusCogito</a>, a co-first-author multimodal chain-of-thought framework for camouflaged object segmentation.</div>
-        </article>
-        <article class="news-item">
-          <div class="news-date">01/2024</div>
-          <div class="news-text"><span class="news-mark">🎉</span>Our agricultural-vision paper on grape and picking point detection was published in <strong>Computers and Electronics in Agriculture</strong>.</div>
-        </article>
-      </div>
-    </section>
-
-    <section class="paper-section" id="education">
-      <h2 class="section-title">🎓 Education</h2>
-      <div class="timeline-list">
-        <article class="timeline-item">
-          <div class="timeline-date">Sep. 2025<br>-<br>Jun. 2028<br>(expected)</div>
-          <div class="entity-logo">
-            <img class="logo-seal logo-ucas" src="./assets/logos/ucas.png" alt="University of Chinese Academy of Sciences logo">
-          </div>
-          <div class="timeline-content">
-            <h3>The University of Chinese Academy of Sciences (UCAS)</h3>
-            <p class="timeline-subtitle">M.S. in Computer Technology, advised by Prof. Ye Li.</p>
-            <p>Graduate research training focuses on multimodal large language models, visual agents, promptable segmentation, and evidence-aware vision-language decision making.</p>
-          </div>
-        </article>
-
-        <article class="timeline-item">
-          <div class="timeline-date">Sep. 2021<br>-<br>Jun. 2025</div>
-          <div class="entity-logo">
-            <img class="logo-seal logo-gxu" src="./assets/logos/gxu.png" alt="Guangxi University logo">
-          </div>
-          <div class="timeline-content">
-            <h3>Guangxi University</h3>
-            <p class="timeline-subtitle">B.Eng. in Mechatronic Engineering.</p>
-            <p>Built a rigorous engineering foundation spanning mechatronic systems, computer vision, robotics practice, and research-oriented project development.</p>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section class="paper-section" id="experience">
-      <h2 class="section-title">🔬 Research Experience</h2>
-      <div class="timeline-list">
-        <article class="timeline-item">
-          <div class="timeline-date">2026<br>-<br>Present</div>
-          <div class="entity-logo">
-            <img class="logo-shield" src="./assets/logos/teleai.png" alt="TeleAI logo">
-          </div>
-          <div class="timeline-content">
-            <h3>TeleAI</h3>
-            <p class="timeline-subtitle">Research Intern, mentored by Chuyi Wang.</p>
-            <p>Conducting research on multimodal reasoning and post-training for MLLMs, with emphasis on evidence-aware interfaces, visual evidence selection, and grounded final-layer decision making.</p>
-          </div>
-        </article>
-
-        <article class="timeline-item">
-          <div class="timeline-date">2025<br>-<br>Present</div>
-          <div class="entity-logo">
-            <img class="logo-seal logo-csu" src="./assets/logos/tecsu.png" alt="Technology and Engineering Center for Space Utilization logo">
-          </div>
-          <div class="timeline-content">
-            <h3>Technology and Engineering Center for Space Utilization, Chinese Academy of Sciences</h3>
-            <p class="timeline-subtitle">Graduate research collaboration.</p>
-            <p>Contributing to camouflaged object understanding, promptable foundation model adaptation, multimodal reasoning, and topology-aware sequence modeling with Mamba/SSM architectures.</p>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section class="paper-section" id="publications">
-      <h2 class="section-title inline-title">📚 Selected Publications <a href="https://scholar.google.com/citations?view_op=list_works&hl=zh-CN&user=4-_ZxF8AAAAJ&gmla=AIqSsVu_9oSFMU6RBwIB44BAVX89cFxTzX-jK6b_ZsoMRCwHe7BZJjR8UoYZETCBm5Rz-4oHxk0HJ7a8KW95x4QrO-sGWiny3HyGr-9YZ3HJKC-2wdAvvhIEyHc2" target="_blank" rel="noreferrer">[Google Scholar]</a></h2>
-      <div class="publication-list">
-        <article class="publication-item">
-          <div class="publication-thumb">
-            <span class="publication-tag">arXiv 2026</span>
-            <img src="./assets/first-pages/ipsam.png" alt="IP-SAM paper first page" loading="lazy">
-          </div>
-          <div class="publication-content">
-            <h3><a href="https://arxiv.org/abs/2603.27250" target="_blank" rel="noreferrer">IP-SAM: Prompt-Space Conditioning for Prompt-Absent Camouflaged Object Detection</a></h3>
-            <p class="publication-authors"><strong class="self-name">Huiyao Zhang</strong>, Jin Bai, Rui Guo, JianWen Tan, HongFei Wang, Ye Li</p>
-            <p class="publication-venue">arXiv preprint, 2026 · First author · Under review</p>
-            <div class="publication-links">
-              <a href="https://arxiv.org/pdf/2603.27250" target="_blank" rel="noreferrer">Paper</a>
-              <a href="https://arxiv.org/abs/2603.27250" target="_blank" rel="noreferrer">arXiv</a>
-            </div>
-            <p class="publication-summary"><span>💡 Core idea:</span> IP-SAM moves conditioning into prompt space so a promptable model can still segment camouflaged objects even when no manual prompt is available at inference time.</p>
-          </div>
-        </article>
-
-        <article class="publication-item">
-          <div class="publication-thumb">
-            <span class="publication-tag">arXiv 2025</span>
-            <img src="./assets/first-pages/arguscogito.png" alt="ArgusCogito paper first page" loading="lazy">
-          </div>
-          <div class="publication-content">
-            <h3><a href="https://arxiv.org/abs/2508.18050" target="_blank" rel="noreferrer">ArgusCogito: Chain-of-Thought for Cross-Modal Synergy and Omnidirectional Reasoning in Camouflaged Object Segmentation</a></h3>
-            <p class="publication-authors">Jianwen Tan, <strong class="self-name">Huiyao Zhang</strong>, Rui Xiong, Han Zhou, Hongfei Wang, Ye Li</p>
-            <p class="publication-venue">arXiv preprint, 2025 · Co-first author · Under review</p>
-            <div class="publication-links">
-              <a href="https://arxiv.org/pdf/2508.18050" target="_blank" rel="noreferrer">Paper</a>
-              <a href="https://arxiv.org/abs/2508.18050" target="_blank" rel="noreferrer">arXiv</a>
-              <a href="https://zhang1huiyao.github.io/ArgusCogito/" target="_blank" rel="noreferrer">Project</a>
-            </div>
-            <p class="publication-summary"><span>💡 Core idea:</span> ArgusCogito treats segmentation as a cross-modal reasoning problem, using chain-of-thought style coordination between vision and language cues to resolve ambiguous camouflage boundaries.</p>
-          </div>
-        </article>
-
-        <article class="publication-item">
-          <div class="publication-thumb">
-            <span class="publication-tag">arXiv 2026</span>
-            <img src="./assets/first-pages/fluxamba.png" alt="Fluxamba paper first page" loading="lazy">
-          </div>
-          <div class="publication-content">
-            <h3><a href="https://arxiv.org/abs/2601.17288" target="_blank" rel="noreferrer">Fluxamba: Topology-Aware Anisotropic State Space Models for Geological Lineament Segmentation in Multi-Source Remote Sensing</a></h3>
-            <p class="publication-authors">Jin Bai, <strong class="self-name">Huiyao Zhang</strong>, Qi Wen, Shengyang Li, Xiaolin Tian, Atta ur Rahman</p>
-            <p class="publication-venue">arXiv preprint, 2026 · Major contributor · Under review</p>
-            <div class="publication-links">
-              <a href="https://arxiv.org/pdf/2601.17288" target="_blank" rel="noreferrer">Paper</a>
-              <a href="https://arxiv.org/abs/2601.17288" target="_blank" rel="noreferrer">arXiv</a>
-            </div>
-            <p class="publication-summary"><span>💡 Core idea:</span> Fluxamba introduces topology-aware anisotropic state-space modeling so long geological structures can be traced more coherently across multi-source remote-sensing imagery.</p>
-          </div>
-        </article>
-
-        <article class="publication-item">
-          <div class="publication-thumb">
-            <span class="publication-tag">arXiv 2026</span>
-            <img src="./assets/first-pages/fgosnet.png" alt="FGOS-Net paper first page" loading="lazy">
-          </div>
-          <div class="publication-content">
-            <h3><a href="https://arxiv.org/abs/2603.28503" target="_blank" rel="noreferrer">Bridging the Geometry Mismatch: Frequency-Aware Anisotropic Serialization for Thin-Structure SSMs</a></h3>
-            <p class="publication-authors">Jin Bai, <strong class="self-name">Huiyao Zhang</strong>, Qi Wen, Ningyang Li, Shengyang Li, Atta ur Rahman, Xiaolin Tian</p>
-            <p class="publication-venue">arXiv preprint, 2026 · Major contributor · Under review</p>
-            <div class="publication-links">
-              <a href="https://arxiv.org/pdf/2603.28503" target="_blank" rel="noreferrer">Paper</a>
-              <a href="https://arxiv.org/abs/2603.28503" target="_blank" rel="noreferrer">arXiv</a>
-            </div>
-            <p class="publication-summary"><span>💡 Core idea:</span> This work redesigns anisotropic serialization with frequency-aware ordering, reducing the geometry mismatch that standard SSM tokenization causes on thin and elongated structures.</p>
-          </div>
-        </article>
-
-        <article class="publication-item">
-          <div class="publication-thumb">
-            <span class="publication-tag">CEA 2024</span>
-            <img src="./assets/first-pages/grape.png" alt="Grape detection paper first page" loading="lazy">
-          </div>
-          <div class="publication-content">
-            <h3><a href="https://doi.org/10.1016/j.compag.2024.108612" target="_blank" rel="noreferrer">Efficient and lightweight grape and picking point synchronous detection model based on key point detection</a></h3>
-            <p class="publication-authors">Jiqing Chen, Aoqiang Ma, Lixiang Huang, Hongwei Li, <strong class="self-name">Huiyao Zhang</strong>, Yang Huang, Tongtong Zhu</p>
-            <p class="publication-venue">Computers and Electronics in Agriculture, 2024 · SCI Q1 journal paper</p>
-            <div class="publication-links">
-              <a href="https://doi.org/10.1016/j.compag.2024.108612" target="_blank" rel="noreferrer">Paper</a>
-            </div>
-            <p class="publication-summary"><span>💡 Core idea:</span> The model jointly detects grape targets and picking points in one lightweight pipeline, making automated harvesting systems more deployment-friendly in real orchard settings.</p>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section class="paper-section" id="awards">
-      <h2 class="section-title">🏅 Honors and Awards</h2>
-      <ul class="award-list award-primary">
-        <li><span class="award-year">2023</span><strong>National Silver Award</strong> — Challenge Cup National College Students' Extracurricular Academic Science and Technology Contest.</li>
-        <li><span class="award-year">2023 &amp; 2024</span><strong>National Bronze Award ×2</strong> — China International College Students' Innovation Competition.</li>
-        <li><span class="award-year">2024</span><strong>People's Government Scholarship</strong> — Guangxi Zhuang Autonomous Region.</li>
-      </ul>
-
-      <details class="award-details">
-        <summary>📂 More honors, scholarships, and student projects</summary>
-        <ul class="award-list award-secondary">
-          <li><span class="award-year">2023 &amp; 2025</span><strong>广西大学向上向善好青年</strong> — Guangxi University campus honor.</li>
-          <li><span class="award-year">2024</span><strong>Huayi Group Scholarship</strong>.</li>
-          <li><span class="award-year">2024</span><strong>National Innovation Project</strong> — Excellent Completion.</li>
-          <li><span class="award-year">2024</span><strong>iGEM Bronze Medal</strong> — Student Leader, Guangxi-U-China team.</li>
-          <li><span class="award-year">2023</span><strong>National Honorable Mention</strong> — Zhou Peiyuan Mechanics Competition.</li>
-          <li><span class="award-year">2023</span><strong>National Encouragement Scholarship</strong> — Ministry of Education system.</li>
-        </ul>
       </details>
-    </section>
+    </div>
+  </section>
 
-    <section class="paper-section" id="miscellaneous">
-      <h2 class="section-title">🎈 Beyond Research</h2>
-      <p class="misc-text">
-        I enjoy reading books and papers, watching films and anime, and going for night runs. In my free time, I also like badminton 🏸, basketball 🏀, and exploring new ideas in both research and daily life. I hope I can keep building intelligent systems with the same curiosity and passion that I bring to life. 🤖✨
-      </p>
-    </section>
+  <div class="social-links">
+    <a class="social-btn" href="mailto:zhanghuiyao25@csu.ac.cn"><span>✉️</span>Email</a>
+    <a class="social-btn" href="https://scholar.google.com/citations?user=4-_ZxF8AAAAJ" target="_blank" rel="noreferrer"><span>🎓</span>Scholar</a>
+    <a class="social-btn" href="https://github.com/zhang1huiyao" target="_blank" rel="noreferrer"><span>●</span>GitHub</a>
+    <a class="social-btn" href="https://zhang1huiyao.github.io/ArgusCogito/" target="_blank" rel="noreferrer"><span>🧪</span>Project</a>
+    <a class="social-btn" href="#publications"><span>📄</span>Publications</a>
+  </div>
 
-    <footer class="page-footer">
-      <p>Last updated: April 27, 2026.</p>
-    </footer>
-  </main>
+  <hr class="unseen-section-divider">
+
+  <section id="news">
+    <h2 class="section-title">News</h2>
+    <div class="news-panel">
+      <ul class="news-list" id="news-list">
+        <li class="news-item"><span class="news-date">07/2026</span><span class="news-content">🎉 <a href="https://arxiv.org/abs/2603.27250" target="_blank" rel="noreferrer">IP-SAM</a> and <a href="https://arxiv.org/abs/2603.28503" target="_blank" rel="noreferrer">FGOS-Net</a> were accepted to <strong>ECCV 2026</strong>!</span></li>
+        <li class="news-item"><span class="news-date">04/2026</span><span class="news-content">🧑‍💻 I joined <strong>TeleAI</strong> as a research intern, focusing on multimodal reasoning and MLLM post-training.</span></li>
+        <li class="news-item"><span class="news-date">03/2026</span><span class="news-content">🎉 We released <a href="https://arxiv.org/abs/2603.28503" target="_blank" rel="noreferrer">FGOS-Net</a> for thin-structure SSMs.</span></li>
+        <li class="news-item"><span class="news-date">01/2026</span><span class="news-content">🎉 We released <a href="https://arxiv.org/abs/2601.17288" target="_blank" rel="noreferrer">Fluxamba</a> for geological lineament segmentation.</span></li>
+        <li class="news-item"><span class="news-date">08/2025</span><span class="news-content">🎉 We released <a href="https://arxiv.org/abs/2508.18050" target="_blank" rel="noreferrer">ArgusCogito</a>, a multimodal chain-of-thought framework.</span></li>
+        <li class="news-item news-hidden"><span class="news-date">01/2024</span><span class="news-content">🍇 <strong>YOLOv8-GP</strong> was published in <strong>Computers and Electronics in Agriculture</strong> (<strong>SCI Q1</strong>).</span></li>
+      </ul>
+      <button class="news-toggle" id="news-toggle-btn" type="button" onclick="toggleNews()">Show more ▾</button>
+    </div>
+  </section>
+
+  <hr class="unseen-section-divider">
+
+  <section id="education">
+    <h2 class="section-title">Education</h2>
+    <ul class="edu-list">
+      <li class="edu-item">
+        <div class="edu-years">Sep. 2025<br>—<br>Jun. 2028<br>(expected)</div>
+        <img class="edu-logo" src="assets/logos/ucas.png" alt="UCAS">
+        <div class="edu-content">
+          <div class="school">University of Chinese Academy of Sciences (UCAS)</div>
+          <div class="dept">M.S. in Computer Technology, supervised by Prof. Ye Li</div>
+          <div class="degree">Research focus: multimodal language models, visual agents, promptable segmentation, and evidence-aware decision-making</div>
+        </div>
+      </li>
+      <li class="edu-item">
+        <div class="edu-years">Sep. 2021<br>—<br>Jun. 2025</div>
+        <img class="edu-logo" src="assets/logos/gxu.png" alt="Guangxi University">
+        <div class="edu-content">
+          <div class="school">Guangxi University</div>
+          <div class="dept">B.Eng. in Mechatronic Engineering, supervised by Prof. Jiqing Chen</div>
+          <div class="degree">Interdisciplinary training in mechatronic systems, computer vision, robotics practice, and research-oriented engineering</div>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <hr class="unseen-section-divider">
+
+  <section id="experience">
+    <h2 class="section-title">Research Experience</h2>
+    <ul class="exp-list">
+      <li class="exp-item">
+        <div class="exp-period">2026<br>—<br>Present</div>
+        <img class="exp-logo exp-logo-thu" src="assets/logos/tsinghua-crest.png" alt="Tsinghua University">
+        <div class="exp-content">
+          <div class="org">THUNLP &amp; QIYUAN Lab, Tsinghua University</div>
+          <div class="role"><strong>Research Intern</strong>, mentored by Prof. Zonghao Guo — Unified vision understanding and generation models, with emphasis on grounding perception, reasoning, and visual synthesis in a single large model</div>
+        </div>
+      </li>
+      <li class="exp-item">
+        <div class="exp-period">2026<br>—<br>Present</div>
+        <img class="exp-logo" src="assets/logos/teleai.png" alt="TeleAI">
+        <div class="exp-content">
+          <div class="org">TeleAI</div>
+          <div class="role"><strong>Research Intern</strong>, mentored by Chuyi Wang — Multimodal reasoning and MLLM post-training, with emphasis on evidence-aware interfaces, visual evidence selection, and grounded final-layer decision-making</div>
+        </div>
+      </li>
+      <li class="exp-item">
+        <div class="exp-period">2025<br>—<br>Present</div>
+        <img class="exp-logo" src="assets/logos/tecsu.png" alt="Technology and Engineering Center for Space Utilization">
+        <div class="exp-content">
+          <div class="org">Technology and Engineering Center for Space Utilization, CAS</div>
+          <div class="role"><strong>Graduate Student Researcher</strong>, supervised by Prof. Ye Li — Camouflaged object understanding, promptable foundation-model adaptation, multimodal reasoning, and topology-aware modeling with Mamba / SSM architectures</div>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <hr class="unseen-section-divider">
+
+  <section id="publications">
+    <h2 class="section-title">Selected Publications &nbsp;<a class="section-head-link" href="https://scholar.google.com/citations?user=4-_ZxF8AAAAJ" target="_blank" rel="noreferrer">[My Google Scholar]</a></h2>
+
+    <div class="pub-spotlight">
+      <div class="pub-spotlight-cols">
+        <div class="pub-spotlight-col">
+          <div class="pub-spotlight-col-title">📄 Top-Venue Papers</div>
+          <ul class="pub-spotlight-list">
+            <li class="pub-spotlight-row"><span class="spotlight-venue-tag">ECCV 2026 ×2</span><span class="spotlight-papers-inline"><a href="https://arxiv.org/abs/2603.27250" target="_blank" rel="noreferrer">IP-SAM</a>, <a href="https://arxiv.org/abs/2603.28503" target="_blank" rel="noreferrer">FGOS-Net</a></span></li>
+            <li class="pub-spotlight-row"><span class="spotlight-venue-tag">CEA · SCI Q1</span><span class="spotlight-papers-inline"><a href="https://doi.org/10.1016/j.compag.2024.108612" target="_blank" rel="noreferrer">YOLOv8-GP</a></span></li>
+          </ul>
+        </div>
+        <div class="pub-spotlight-col">
+          <div class="pub-spotlight-col-title">🎯 Research Themes</div>
+          <ul class="pub-spotlight-list">
+            <li class="pub-spotlight-row"><span class="spotlight-venue-tag">Reasoning</span><span class="spotlight-papers-inline">MLLM Post-training &amp; Visual Agents</span></li>
+            <li class="pub-spotlight-row"><span class="spotlight-venue-tag">Vision</span><span class="spotlight-papers-inline">Promptable Segmentation &amp; SSMs</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="pub-featured">
+      <a class="pub-featured-item" href="https://arxiv.org/abs/2603.27250" target="_blank" rel="noreferrer">
+        <span class="pub-featured-trigger"><img src="assets/figures/ipsam-model.png" alt="IP-SAM model architecture"></span>
+        <span class="pub-featured-label">IP-SAM (ECCV 2026)</span>
+      </a>
+      <a class="pub-featured-item" href="https://arxiv.org/abs/2603.28503" target="_blank" rel="noreferrer">
+        <span class="pub-featured-trigger"><img src="assets/figures/fgosnet-model.png" alt="FGOS-Net model architecture"></span>
+        <span class="pub-featured-label">FGOS-Net (ECCV 2026)</span>
+      </a>
+      <a class="pub-featured-item" href="https://zhang1huiyao.github.io/ArgusCogito/" target="_blank" rel="noreferrer">
+        <span class="pub-featured-trigger"><img src="assets/figures/arguscogito-model.png" alt="ArgusCogito reasoning framework"></span>
+        <span class="pub-featured-label">ArgusCogito (arXiv 2025)</span>
+      </a>
+    </div>
+
+    <ul class="pub-list">
+      <li class="pub-item">
+        <div class="pub-thumb"><img src="assets/figures/ipsam-model.png" alt="IP-SAM model architecture" loading="lazy"></div>
+        <div class="pub-body">
+          <div class="pub-title"><a href="https://arxiv.org/abs/2603.27250" target="_blank" rel="noreferrer">IP-SAM: Rethinking Prompt-Conditioned Segmentation for Prompt-Absent Deployment</a></div>
+          <div class="pub-authors"><span class="self">Huiyao Zhang</span>, Jin Bai, Rui Guo, JianWen Tan, HongFei Wang, Ye Li</div>
+          <div class="pub-venue"><span class="venue-name">ECCV 2026</span> · First author</div>
+          <div class="pub-desc"><span class="pub-desc-label">Focus</span> Automatic use of prompt-conditioned segmenters fails without user prompts; IP-SAM supplies the missing conditioning.</div>
+          <div class="pub-links"><a class="pub-link" href="https://arxiv.org/pdf/2603.27250" target="_blank" rel="noreferrer">Paper</a><a class="pub-link" href="https://arxiv.org/abs/2603.27250" target="_blank" rel="noreferrer">arXiv</a></div>
+        </div>
+      </li>
+      <li class="pub-item">
+        <div class="pub-thumb"><img src="assets/figures/fgosnet-model.png" alt="FGOS-Net model architecture" loading="lazy"></div>
+        <div class="pub-body">
+          <div class="pub-title"><a href="https://arxiv.org/abs/2603.28503" target="_blank" rel="noreferrer">Bridging the Geometry Mismatch: Frequency-Aware Anisotropic Serialization for Thin-Structure SSMs</a></div>
+          <div class="pub-authors">Jin Bai, <span class="self">Huiyao Zhang</span>, Qi Wen, Ningyang Li, Shengyang Li, Atta ur Rahman, Xiaolin Tian</div>
+          <div class="pub-venue"><span class="venue-name">ECCV 2026</span> · Major contributor</div>
+          <div class="pub-desc"><span class="pub-desc-label">Focus</span> Conventional SSM scan paths fragment thin, winding structures; FGOS-Net follows their geometry instead.</div>
+          <div class="pub-links"><a class="pub-link" href="https://arxiv.org/pdf/2603.28503" target="_blank" rel="noreferrer">Paper</a><a class="pub-link" href="https://arxiv.org/abs/2603.28503" target="_blank" rel="noreferrer">arXiv</a></div>
+        </div>
+      </li>
+      <li class="pub-item">
+        <div class="pub-thumb"><img src="assets/figures/arguscogito-model.png" alt="ArgusCogito reasoning framework" loading="lazy"></div>
+        <div class="pub-body">
+          <div class="pub-title"><a href="https://arxiv.org/abs/2508.18050" target="_blank" rel="noreferrer">ArgusCogito: Chain-of-Thought for Cross-Modal Synergy and Omnidirectional Reasoning in Camouflaged Object Segmentation</a></div>
+          <div class="pub-authors">Jianwen Tan, <span class="self">Huiyao Zhang</span>, Rui Xiong, Han Zhou, Hongfei Wang, Ye Li</div>
+          <div class="pub-venue"><span class="venue-name">arXiv preprint, 2025</span> · Co-first author · Under review</div>
+          <div class="pub-desc"><span class="pub-desc-label">Focus</span> Weak object–background contrast makes camouflaged objects hard to isolate; ArgusCogito reasons across visual and language evidence.</div>
+          <div class="pub-links"><a class="pub-link" href="https://arxiv.org/pdf/2508.18050" target="_blank" rel="noreferrer">Paper</a><a class="pub-link" href="https://zhang1huiyao.github.io/ArgusCogito/" target="_blank" rel="noreferrer">Project Page</a></div>
+        </div>
+      </li>
+      <li class="pub-item">
+        <div class="pub-thumb"><img src="assets/figures/fluxamba-model.png" alt="Fluxamba model architecture" loading="lazy"></div>
+        <div class="pub-body">
+          <div class="pub-title"><a href="https://arxiv.org/abs/2601.17288" target="_blank" rel="noreferrer">Fluxamba: Topology-Aware Anisotropic State Space Models for Geological Lineament Segmentation</a></div>
+          <div class="pub-authors">Jin Bai, <span class="self">Huiyao Zhang</span>, Qi Wen, Shengyang Li, Xiaolin Tian, Atta ur Rahman</div>
+          <div class="pub-venue"><span class="venue-name">arXiv preprint, 2026</span> · Major contributor · Under review</div>
+          <div class="pub-desc"><span class="pub-desc-label">Focus</span> Axis-aligned SSM scans break discontinuous geological lineaments; Fluxamba models their intrinsic topology.</div>
+          <div class="pub-links"><a class="pub-link" href="https://arxiv.org/pdf/2601.17288" target="_blank" rel="noreferrer">Paper</a><a class="pub-link" href="https://arxiv.org/abs/2601.17288" target="_blank" rel="noreferrer">arXiv</a></div>
+        </div>
+      </li>
+      <li class="pub-item">
+        <div class="pub-thumb"><img src="assets/figures/grape-model.png" alt="Grape and picking-point detection architecture" loading="lazy"></div>
+        <div class="pub-body">
+          <div class="pub-model">YOLOv8-GP</div>
+          <div class="pub-title"><a href="https://doi.org/10.1016/j.compag.2024.108612" target="_blank" rel="noreferrer">Efficient and Lightweight Grape and Picking-Point Synchronous Detection Model Based on Keypoint Detection</a></div>
+          <div class="pub-authors">Jiqing Chen, Aoqiang Ma, Lixiang Huang, Hongwei Li, <span class="self">Huiyao Zhang</span>, Yang Huang, Tongtong Zhu</div>
+          <div class="pub-venue"><span class="venue-name">Computers and Electronics in Agriculture</span> · SCI Q1 · 2024</div>
+          <div class="pub-desc"><span class="pub-desc-label">Focus</span> Robotic harvesting needs fruit clusters and picking points together; YOLOv8-GP detects both in one model.</div>
+          <div class="pub-links"><a class="pub-link" href="https://doi.org/10.1016/j.compag.2024.108612" target="_blank" rel="noreferrer">Paper</a></div>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <hr class="unseen-section-divider">
+
+  <section id="honors">
+    <h2 class="section-title">Honors &amp; Awards</h2>
+    <div class="honors-grid">
+      <article class="honor-card"><div class="honor-card-media"><img class="honor-card-img" src="assets/awards/selected/challenge-cup-national-silver-v2.png" alt="Challenge Cup award"></div><div class="honor-card-body"><div class="award-name">National Silver Award</div><div class="award-event">Challenge Cup, 2023</div></div></article>
+      <article class="honor-card"><div class="honor-card-media"><img class="honor-card-img" src="assets/awards/selected/innovation-competition-national-bronze-v2.jpg" alt="Innovation competition award"></div><div class="honor-card-body"><div class="award-name">National Bronze Award ×2</div><div class="award-event">China International College Students' Innovation Competition</div></div></article>
+      <article class="honor-card"><div class="honor-card-media"><img class="honor-card-img" src="assets/awards/selected/guangxi-government-scholarship-v2.png" alt="Guangxi scholarship"></div><div class="honor-card-body"><div class="award-name">People's Government Scholarship</div><div class="award-event">Guangxi Zhuang Autonomous Region, 2024</div></div></article>
+    </div>
+    <div class="content-panel honors-more">
+      <ul class="honors-other">
+        <li><span class="h-year">2024</span><span>iGEM Bronze Medal — Student Leader, Guangxi-U-China team</span></li>
+        <li><span class="h-year">2023</span><span>National Honorable Mention — Zhou Peiyuan Mechanics Competition</span></li>
+        <li><span class="h-year">2023</span><span>National Encouragement Scholarship</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <hr class="unseen-section-divider">
+
+  <section id="miscellaneous">
+    <h2 class="section-title">Beyond Research</h2>
+    <div class="content-panel prose-panel">
+      Outside the lab, I am happiest with a good book 📚, a film or anime 🎬, and a night run 🌙. Badminton 🏸 and
+      basketball 🏀 keep me moving; conversations sparked by a small curiosity often become the start of a new idea. 🤖✨
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <p>© Huiyao Zhang &nbsp;·&nbsp; Latest updated Jul. 2026</p>
+  </footer>
+</div>
+
+<script>
+  function toggleNews() {
+    const list = document.getElementById('news-list');
+    const btn = document.getElementById('news-toggle-btn');
+    list.classList.toggle('news-expanded');
+    btn.textContent = list.classList.contains('news-expanded') ? 'Show less ▴' : 'Show more ▾';
+  }
+</script>
 </body>
 </html>
