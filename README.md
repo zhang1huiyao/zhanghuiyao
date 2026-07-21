@@ -11,6 +11,12 @@
 </p>
 
 <p align="center">
+  <img src="./assets/logos/ucas.png" height="72" alt="University of Chinese Academy of Sciences">&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="./assets/logos/tsinghua-crest.png" height="72" alt="Tsinghua University">&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="./assets/logos/teleai.png" height="72" alt="TeleAI">
+</p>
+
+<p align="center">
   <a href="https://zhang1huiyao.github.io/zhanghuiyao/"><b>Homepage</b></a> ·
   <a href="https://scholar.google.com/citations?user=4-_ZxF8AAAAJ"><b>Google Scholar</b></a> ·
   <a href="https://github.com/zhang1huiyao"><b>GitHub</b></a> ·
@@ -79,14 +85,6 @@ Beyond research, I have received a **National Silver Award** in the Challenge Cu
 - **[CEA 2024 · SCI Q1]** **YOLOv8-GP: Efficient and Lightweight Grape and Picking-Point Synchronous Detection Model Based on Keypoint Detection**<br>
   Published in *Computers and Electronics in Agriculture*.<br>
   [[Paper](https://doi.org/10.1016/j.compag.2024.108612)]
-
-# 🏆 Selected Honors
-
-- **National Silver Award** — Challenge Cup, 2023
-- **National Bronze Award ×2** — China International College Students' Innovation Competition
-- **People's Government Scholarship** — Guangxi Zhuang Autonomous Region, 2024
-- **Bronze Medal** — iGEM, 2024
-- **National Honorable Mention** — Zhou Peiyuan Mechanics Competition, 2023
 
 ---
 
