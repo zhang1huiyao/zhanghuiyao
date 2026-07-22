@@ -11,9 +11,9 @@
 </p>
 
 <p align="center">
-  <img src="./assets/logos/ucas.png" height="72" alt="University of Chinese Academy of Sciences">&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="./assets/logos/tsinghua-crest.png" height="72" alt="Tsinghua University">&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="./assets/logos/teleai.png" height="72" alt="TeleAI">
+  <img src="./assets/logos/normalized/ucas.png" height="82" alt="University of Chinese Academy of Sciences">&emsp;&emsp;
+  <img src="./assets/logos/normalized/tsinghua.png" height="82" alt="Tsinghua University">&emsp;&emsp;
+  <img src="./assets/logos/normalized/teleai.png" height="82" alt="TeleAI">
 </p>
 
 <p align="center">

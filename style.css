@@ -168,7 +168,7 @@ hr.unseen-section-divider { border: none; margin: 0 0 var(--section-gap); }
 .edu-list, .exp-list, .pub-list, .pub-spotlight-list, .honors-other { list-style: none; }
 .edu-item {
   display: grid;
-  grid-template-columns: 76px 128px minmax(0, 1fr);
+  grid-template-columns: 76px 112px minmax(0, 1fr);
   gap: 0 14px;
   padding: 12px 6px;
   border-bottom: 1px solid var(--border);
@@ -184,20 +184,20 @@ hr.unseen-section-divider { border: none; margin: 0 0 var(--section-gap); }
   line-height: 1.45;
 }
 .edu-logo, .exp-logo {
-  width: 100px;
-  height: 100px;
+  width: 92px;
+  height: 92px;
   object-fit: contain;
+  background: transparent;
   display: block;
   justify-self: center;
 }
-.exp-logo-thu { object-fit: contain; filter: brightness(1.08) contrast(1.6); mix-blend-mode: multiply; }
 .edu-content .school, .exp-content .org { font-size: .97rem; font-weight: 600; }
 .edu-content .dept, .edu-content .degree, .exp-content .role { font-size: .86rem; color: var(--text-muted); }
 .edu-content .degree { font-style: italic; }
 
 .exp-item {
   display: grid;
-  grid-template-columns: 76px 128px minmax(0, 1fr);
+  grid-template-columns: 76px 112px minmax(0, 1fr);
   gap: 0 14px;
   padding: 12px 6px;
   border-bottom: 1px solid var(--border);
