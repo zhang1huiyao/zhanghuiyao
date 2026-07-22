@@ -165,7 +165,7 @@ hr.unseen-section-divider { border: none; margin: 0 0 var(--section-gap); }
 }
 .news-toggle:hover { color: var(--accent); }
 
-.edu-list, .exp-list, .pub-list, .pub-spotlight-list, .honors-other { list-style: none; }
+.edu-list, .exp-list, .pub-list, .pub-spotlight-list { list-style: none; }
 .edu-item {
   display: grid;
   grid-template-columns: 76px 112px minmax(0, 1fr);
@@ -175,7 +175,7 @@ hr.unseen-section-divider { border: none; margin: 0 0 var(--section-gap); }
   align-items: center;
 }
 .edu-item:first-child, .exp-item:first-child, .pub-item:first-child { border-top: 1px solid var(--border); }
-.edu-years, .exp-period, .h-year {
+.edu-years, .exp-period {
   font-family: var(--font-mono);
   font-size: .64rem;
   font-weight: 500;
@@ -275,9 +275,6 @@ hr.unseen-section-divider { border: none; margin: 0 0 var(--section-gap); }
 .honor-card-body { padding: 10px 12px; }
 .honor-card .award-name { font-size: .86rem; font-weight: 600; line-height: 1.38; }
 .honor-card .award-event { font-size: .77rem; color: var(--text-muted); margin-top: 2px; line-height: 1.35; }
-.honors-more { margin-top: 12px; }
-.honors-other li { padding: 4px 6px; font-size: .87rem; display: flex; align-items: baseline; gap: 10px; border-radius: 4px; }
-.honors-other .h-year { flex-shrink: 0; width: 40px; padding-top: 2px; }
 .prose-panel { font-size: .9rem; color: var(--text-muted); line-height: 1.65; }
 
 .site-footer { margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--border); font-family: var(--font-mono); font-size: .72rem; color: var(--text-light); text-align: center; line-height: 1.6; }
